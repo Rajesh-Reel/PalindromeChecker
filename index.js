@@ -6,7 +6,7 @@ function palindrome(myStr) {
     let isPalindrome = removeCharacters.split("").reverse().join("");
 
     // if () { //add condition
-    //     // add logic
+        // document.write("<div>"+ myStr + " is a Palindrome <div>");
     // } else {
     //     document.write("<div>" + myStr + " is not a Palindrome </div>");
     // }

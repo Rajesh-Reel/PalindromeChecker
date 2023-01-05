@@ -5,11 +5,11 @@ function palindrome(myStr) {
     // reverses above variable for comparison
     let isPalindrome = removeCharacters.split("").reverse().join("");
 
-    // if () { //add condition
-        // document.write("<div>"+ myStr + " is a Palindrome <div>");
-    // } else {
-    //     document.write("<div>" + myStr + " is not a Palindrome </div>");
-    // }
+    if (removeCharacters === isPalindrome) { //add condition
+        document.write("<div>"+ myStr + " is a Palindrome <div>");
+    } else {
+        document.write("<div>" + myStr + " is not a Palindrome </div>");
+    }
 };
 
 palindrome("hello"); //not a palindrome
